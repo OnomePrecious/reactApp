@@ -1,0 +1,91 @@
+.image{
+    width: 100%;
+}
+.imageContainer{
+    /*flex: 1;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.inputContainer{
+    margin-bottom: 10px;
+}
+
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.input{
+    width: 100%;
+    max-width: 250px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+
+.secondHalfContainer{
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/*.submit{*/
+/*    width: 100px;*/
+/*    background-color: rebeccapurple;*/
+/*    color: #ffffff;*/
+/*    border: none;*/
+/*    height: 26px;*/
+/*    border-radius:  3px;*/
+/*}*/
+
+.welcomeContainer{
+    justify-content: center;
+    align-content: center;
+}
+
+.login{
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+.error{
+    color: red;
+    font-size: 12px;
+}
+.formContainer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn{
+    background: darkmagenta;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
