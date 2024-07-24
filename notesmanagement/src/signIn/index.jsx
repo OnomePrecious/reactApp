@@ -86,7 +86,7 @@ const SignIn = () => {
 
             <div className={style.formContainer}>
                 <div>
-                    <h1 className="header">Welcome!</h1>
+                    <h1 className="header">Welcome to Precious Note Management System</h1>
                     <p className="title">Sign up by entering the information below</p>
                     <Formik
                         initialValues={{username: '', email: '', password: ""}}
